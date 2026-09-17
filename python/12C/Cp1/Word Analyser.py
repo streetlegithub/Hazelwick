@@ -1,0 +1,7 @@
+word = input("Word: ")
+print(f"Reversed: {word[::-1]}")
+print(f"Uppercase: {word.upper()}")
+print(f"Length: {len(word)}")
+print(f"Palindrome: {word == word[::-1]}")
+print(f"First letter character code: {ord(word[0])}")
+print(f"Middle character: {word[len(word)//2]}")
