@@ -1,0 +1,7 @@
+sentence = input("Enter a sentence: ")
+print(f"Uppercase: {sentence.upper()}")
+print(f"Characters: {len(sentence)}")
+print(f"Words: {len(sentence.split())}")
+print(f"Contains 'python': {"Python" in sentence}")
+print(f"First character: {sentence[0]}")
+print(f"Last character: {sentence[-1]}")
