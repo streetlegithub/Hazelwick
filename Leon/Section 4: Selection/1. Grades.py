@@ -1,5 +1,7 @@
+# ask for mark
 mark = int(input("Enter the test mark (0-100): "))
 
+# get grade from mark
 if mark < 0 or mark > 100:
     print("Invalid mark")
 elif mark > 70:
@@ -12,5 +14,6 @@ elif mark > 40:
     print("D")
 elif mark < 40:
     print("U")
+# error handling
 else:
     print("Invalid input")

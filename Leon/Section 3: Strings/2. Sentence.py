@@ -1,4 +1,6 @@
+# take a sentence
 sentence = input("Enter a sentence: ")
+# print various facts about this sentence
 print(f"Uppercase: {sentence.upper()}")
 print(f"Characters: {len(sentence)}")
 print(f"Words: {len(sentence.split())}")
